@@ -1,0 +1,30 @@
+.NavBar {
+  background-color: rgb(182, 238, 255);
+  display: flex;
+  position: relative;
+}
+
+.StartText {
+  margin-left: 20%;
+}
+.signInButton {
+  /* position: absolute; */
+  /* margin-top: 5%; */
+  margin-top: 10px;
+  margin-left: 50%;
+  height: 30px;
+}
+
+.imageback {
+  height: 450px;
+  width: 100%;
+}
+
+.BackgroundImage {
+  object-fit: contain;
+}
+
+.InnerContainerImage {
+  position: absolute;
+  margin-left: auto;
+}

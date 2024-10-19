@@ -1,0 +1,43 @@
+.cat_sense_div h3 {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+
+.cat_sense_div {
+  margin-left: 50px;
+}
+
+.img_cat,
+.img_lion {
+  border: 4px solid rgb(237, 142, 9);
+  display: block;
+  margin: 50px auto 50px;
+}
+
+.diffrence_tigers {
+  border: 1px solid red;
+  text-align: center;
+  color: red;
+  margin: 0 auto 20px;
+  width: 80%;
+}
+
+.table_lion table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  margin: auto;
+}
+
+.table_lion {
+  width: 80%;
+  margin: 0 auto 20px;
+}
+
+#cat_media {
+  text-align: center;
+}

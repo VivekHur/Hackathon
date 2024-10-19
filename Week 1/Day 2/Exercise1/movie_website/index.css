@@ -1,0 +1,17 @@
+.movieList {
+  list-style-type: none;
+  display: flex;
+}
+
+.movieList li {
+  padding: 10px;
+}
+
+.listBody {
+  background-color: rgb(168, 168, 255);
+  padding: px;
+}
+
+.image {
+  height: 150px;
+}

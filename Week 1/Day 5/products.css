@@ -1,0 +1,52 @@
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.MainContainer {
+  width: 100%; /* Ensure the container spans the full width */
+  overflow: hidden; /* Prevents any floating elements from overflowing */
+}
+
+.container1,
+.container2,
+.container3,
+.container4 {
+  display: inline-block;
+  /* float: left; Aligns the divs containing images side by side */
+  margin: 10px; /* Adds spacing between the images */
+}
+
+.detailBox1,
+.detailBox2,
+.detailBox3,
+.detailBox4 {
+  text-align: center;
+}
+
+.img1 {
+  display: inline-block;
+  position: relative; /* Parent container for positioning the circles */
+}
+
+.circleleft,
+.circleright {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  position: absolute;
+}
+
+.circleleft {
+  top: 4%;
+  left: 2%;
+}
+
+.circleright {
+  top: 4%;
+  right: 6px;
+}

@@ -1,0 +1,21 @@
+h2 {
+  color: rgb(72, 9, 131);
+  border: 2px solid;
+  padding: 10px;
+  background-color: rgb(151, 151, 253);
+}
+
+.list {
+  color: rgb(19, 180, 19);
+  text-decoration: dotted;
+  text-shadow: 2px 2px #000000;
+}
+
+.spanClass {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+body {
+  background-image: linear-gradient(rgb(255, 236, 236), rgb(217, 218, 255));
+}
