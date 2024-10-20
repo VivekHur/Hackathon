@@ -1,0 +1,130 @@
+img {
+  width: 250px;
+}
+
+.PriceText {
+  color: rgb(62, 150, 40);
+  font-weight: bold;
+}
+
+span {
+  text-decoration: line-through;
+  color: rgb(184, 182, 182);
+  font-size: 70%;
+}
+
+.MainContainer {
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+  margin: 10px;
+  height: 500px;
+
+}
+
+.detailBox1,
+.detailBox2,
+.detailBox3,
+.detailBox4 {
+  text-align: center;
+}
+
+.img1 {
+  display: inline-block;
+}
+
+.circleleft,
+.circleright {
+  width: 45px;
+  height: 45px;
+
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  position: absolute;
+  font-size: 11;
+  font-weight: bold;
+  line-height: 45px;
+
+}
+
+.circleleft {
+  top: 20px;
+  left: 10px;
+  background-color: rgb(62, 150, 40);
+}
+
+.circleright {
+  top: 20px;
+  right: 10px;
+  background-color: rgb(235, 24, 24);
+}
+
+button {
+  background-color: #dddddd00;
+  color: #888888;
+  border: 0.25px solid #cac9c993;
+  padding: 10px 20px;
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+
+}
+
+.hoverDiv {
+  display: inline-block;
+  background-color: #0000ff00;
+  height: 60px;
+  width: 200px;
+  position: absolute;
+  top: 35%;
+  left: 15px;
+  text-align: center;
+  padding-left: 20;
+}
+
+.hoverIcons {
+  background-color: rgb(255, 255, 255);
+  float: left;
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  border: 0;
+  border-radius: 5px;
+  display: none;
+}
+
+
+.hoverIcons i {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+
+.container:hover {
+  .hoverIcons {
+    display: block
+  }
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  button {
+    background-color: rgb(62, 150, 40);
+    color: white;
+  }
+
+}
+
+.hoverIcons:hover {
+  background-color: rgb(62, 150, 40);
+  color: white;
+
+ 
+}

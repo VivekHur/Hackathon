@@ -1,0 +1,78 @@
+body {
+    background-image: url("../Background/background.png");
+    margin: 0;
+    height: 100vh;
+    position: relative;
+}
+
+.signupMain {
+    background-color: rgba(0, 255, 255, 0);
+    overflow: hidden;
+    border-radius: 15px;
+    width: 600px;
+    padding: 20px;
+    border: 0.5px solid #baffc093;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.signupdiv,
+.signupDivDeco {
+    background-color: rgba(0, 255, 255, 0);
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin: 25px;
+
+}
+
+.signupInputs {
+    padding: 5px;
+    display: block;
+    margin: 10px auto;
+    color: rgb(150, 185, 126);
+}
+
+.submitButtonDiv {
+    text-align: center;
+}
+
+.submitButton {
+    background-color: #dddddd00;
+    color: #888888;
+    border: 0.25px solid #cac9c993;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 75%;
+
+}
+
+.submitButton:hover {
+    background-color: rgb(68, 228, 94);
+    color: black
+}
+
+input {
+    border-radius: 5px;
+    width: 100%;
+}
+
+input::placeholder {
+    color: #888;
+    font-style: italic;
+    opacity: 1;
+}
+
+.signupDivDeco {
+    color: rgb(230, 247, 247);
+
+}

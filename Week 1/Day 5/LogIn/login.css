@@ -1,0 +1,85 @@
+body {
+    background-image: url("../Background/background.png");
+    margin: 0;
+    /* Remove default margin */
+    height: 100vh;
+    /* Full viewport height */
+    display: flex;
+    /* Use flexbox to center */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+}
+
+.LoginMain {
+    border: 0.25px solid #cac9c993;
+    border-radius: 5px;
+}
+
+.LoginWindow {
+  
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+#LoginID {
+    text-align: left;
+}
+
+
+h2,h4 {
+    color: rgb(210, 228, 228);
+}
+
+input {
+    margin: 10px;
+    width: 90%;
+}
+
+.submitButton {
+    background-color: #dddddd00;
+    color: #888888;
+    border: 0.25px solid #cac9c993;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 75%;
+    margin-top: 20px;
+
+}
+
+.submitButton:hover {
+    background-color: rgb(68, 228, 94);
+    color: black
+}
+
+.LoginWindow {
+    text-align: center;
+}
+
+.GoToSignUp {}
+
+
+.GoToSignUp,
+.LoginWindow {
+
+    height: 250px;
+    width: 250px;
+    float: left;
+    margin: 10px;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.GoToSignUp {
+    text-align: center;
+}
