@@ -3,6 +3,14 @@ img {
   width: 200px;
 }
 
+.PriceText {
+  color: rgb(34, 133, 233);
+}
+
+span {
+  text-decoration: line-through;
+  color: rgb(184, 182, 182);
+}
 .MainContainer {
   width: 100%; /* Ensure the container spans the full width */
   overflow: hidden; /* Prevents any floating elements from overflowing */
@@ -13,6 +21,7 @@ img {
 .container3,
 .container4 {
   display: inline-block;
+  position: relative;
   /* float: left; Aligns the divs containing images side by side */
   margin: 10px; /* Adds spacing between the images */
 }
@@ -26,14 +35,13 @@ img {
 
 .img1 {
   display: inline-block;
-  position: relative; /* Parent container for positioning the circles */
 }
 
 .circleleft,
 .circleright {
   width: 40px;
   height: 40px;
-  background-color: black;
+
   color: white;
   border-radius: 50%;
   text-align: center;
@@ -43,10 +51,12 @@ img {
 
 .circleleft {
   top: 4%;
-  left: 2%;
+  left: 6px;
+  background-color: rgb(62, 150, 40);
 }
 
 .circleright {
   top: 4%;
   right: 6px;
+  background-color: rgb(235, 24, 24);
 }
