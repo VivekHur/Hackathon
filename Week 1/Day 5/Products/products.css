@@ -88,7 +88,7 @@ button {
   top: 35%;
   left: 15px;
   text-align: center;
-  padding-left: 20;
+  padding-left: 20px; 
 }
 
 .hoverIcons {
@@ -99,32 +99,58 @@ button {
   margin: 10px;
   border: 0;
   border-radius: 5px;
-  display: none;
+  display: none; 
+  position: relative; 
 }
-
 
 .hoverIcons i {
   font-size: 20px;
   line-height: 40px;
 }
 
+.container:hover .hoverIcons {
+  display: block; 
+}
 
 .container:hover {
-  .hoverIcons {
-    display: block
-  }
-
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   button {
     background-color: rgb(62, 150, 40);
     color: white;
   }
-
 }
 
 .hoverIcons:hover {
   background-color: rgb(62, 150, 40);
   color: white;
+}
 
- 
+
+.hoverIcons:hover .help-text {
+  opacity: 1; 
+  transition: opacity 0.3s ease; 
+}
+
+.help-text {
+  opacity: 0;
+  position: absolute;
+  bottom: 115%; 
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #000000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+.help-text::after {
+  content: "";
+  position: absolute;
+  top: 100%; 
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 5px;
+  border-style: solid;
+  border-color: #000000 transparent transparent transparent;
 }
