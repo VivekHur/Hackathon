@@ -180,9 +180,10 @@ body {
   }
 
   .UserBox {
-    width: 100%;
-    max-width: 90%;
+    width: 80%;
+    max-width: 80%;
     margin: 20px auto;
+
   }
 
   .UserBoxText {
@@ -191,5 +192,11 @@ body {
 
   .TopText h1 {
     width: 100%;
+  }
+
+  .UserBox p{
+    word-wrap: break-word;
+    width: 95%;
+    
   }
 }
