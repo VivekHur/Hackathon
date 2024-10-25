@@ -1,0 +1,195 @@
+/* .MainContainer{
+    display: block;
+} */
+body {
+  background-image: url("./images/background2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+.InnerUpperContainer {
+  margin: -20px;
+}
+.InnerUpperContainer p {
+  margin: -25px;
+}
+
+#img1 {
+  background-image: url("./peopleIcon/img1.jfif");
+  background-size: cover;
+  background-position: center;
+}
+
+#img2 {
+  background-image: url("./peopleIcon/img2.jfif");
+  background-size: cover;
+  background-position: center;
+}
+
+#img3 {
+  background-image: url("./peopleIcon/img3.jfif");
+  background-size: cover;
+  background-position: center;
+}
+
+.UpperContainer {
+  display: grid;
+  box-sizing: border-box;
+
+  height: 250px;
+  justify-items: center;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 3fr;
+  column-gap: 10px;
+  row-gap: 10px;
+
+  grid-row: 1 / span 3;
+
+  grid-template-areas:
+    "TopTextx TopTextx TopTextx"
+    "Box1 Box2 Box3";
+}
+
+.TopText {
+  grid-area: TopTextx;
+}
+
+#Ub1 {
+  grid-area: Box1;
+}
+
+#Ub2 {
+  grid-area: Box2;
+}
+
+#Ub3 {
+  grid-area: Box3;
+}
+
+.LowerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 350px;
+}
+
+.UserBox {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 10px;
+
+  background-color: aliceblue;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.UserPic {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+  left: 50%;
+  bottom: 100px;
+  transform: translateX(-50%);
+}
+
+.NameBox {
+  position: relative;
+  height: 100px;
+}
+
+#lb1 {
+  background-color: rgb(215, 114, 185);
+}
+#lb2 {
+  background-color: rgb(64, 103, 203);
+}
+#lb3 {
+  background-color: rgb(50, 167, 199);
+}
+
+.UserBoxText {
+  padding: 10px;
+  height: 120px;
+  width: 300px;
+}
+
+.NameBox p {
+  position: relative;
+  color: rgb(255, 255, 255);
+  top: 15px;
+}
+
+.founderText {
+  font-size: 11;
+}
+
+#b1 {
+  align-self: start;
+}
+#b2 {
+  align-self: flex-end;
+}
+#b3 {
+  align-self: center;
+}
+
+.UpperContainer p {
+  font-size: 11;
+  color: rgb(88, 88, 88);
+  font-weight: 900;
+}
+
+.UpperContainer h2 {
+  font-size: 36;
+  color: rgb(61, 67, 231);
+  font-weight: 550;
+}
+
+.UserBoxText p {
+  color: rgb(88, 88, 88);
+  font-weight: 550;
+}
+
+.TopText h1 {
+  width: 600px;
+  word-wrap: break-word;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 1061px) {
+  .UpperContainer {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 20px;
+  }
+
+  .LowerContainer {
+    flex-direction: column;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .UserBox {
+    width: 100%;
+    max-width: 90%;
+    margin: 20px auto;
+  }
+
+  .UserBoxText {
+    width: 100%;
+  }
+
+  .TopText h1 {
+    width: 100%;
+  }
+}

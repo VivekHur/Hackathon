@@ -1,0 +1,46 @@
+.Box1,
+.Box2,
+.Box3 {
+  background-color: aqua;
+  height: 40px;
+}
+
+.MainContainer {
+  border: 3px solid rgb(255, 103, 133);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+
+
+#b2 {
+  align-self: center;
+  width: 50%;
+  height: 80px;
+}
+
+div {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.MainContainer2 {
+  margin: 10px;
+  border: 3px solid rgb(255, 103, 133);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 150px;
+  width: 200px;
+}
+
+
+#bb2{
+  align-self: flex-end;
+  width: 20%;
+}
