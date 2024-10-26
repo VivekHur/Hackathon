@@ -1,120 +1,115 @@
 .Container {
-    background-color: rgb(175, 175, 174);
+  background-color: rgb(175, 175, 174);
 }
 
 .mainContainer {
-    background-color: rgb(140, 2, 253);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-    height: 100%;
-    justify-content: center;
-    margin-top: 10px;
+  background-color: rgb(140, 2, 253);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  height: 100%;
+  justify-content: center;
+  margin-top: 10px;
 
-    background-image: url("./image/background.jpg");
-
+  background-image: url("./image/background.jpg");
 }
 
 span {
-    color: blue;
+  color: blue;
 }
 
 .userDeets {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    column-gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 5px;
 }
 
 input {
-    border-radius: 5px;
-    height: 30px;
-    border: none;
+  border-radius: 5px;
+  height: 30px;
+  border: none;
 }
 
 .userDeets p {
-    margin-bottom: 2px;
+  margin-bottom: 2px;
 }
 
 .userDeets input {
-    width: 100%;
+  width: 100%;
 }
 
 #dropWork {
-    margin-bottom: 2px;
+  margin-bottom: 2px;
 }
 
 .ques p {
-    margin-bottom: 2px;
+  margin-bottom: 2px;
 }
 
 .empNum,
 .adNum {
-    width: 100%;
-    height: 30px;
+  width: 100%;
+  height: 30px;
 }
 
 .check {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 #checkText {
-    margin-left: 15px;
+  margin-left: 15px;
 }
 
 .submitDiv {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .navBar {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(32, 100, 95);
-    height: 60px;
-    color: white
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(32, 100, 95);
+  height: 60px;
+  color: white;
 }
 
 .navBar button {
-    height: 40px;
-    width: 100px;
-    margin-left: 35px;
-    color: white;
-    background-color: rgb(0, 140, 255);
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
+  height: 40px;
+  width: 100px;
+  margin-left: 35px;
+  color: white;
+  background-color: rgb(0, 140, 255);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 #submitButton {
-    height: 40px;
-    width: 200px;
-    margin-left: 35px;
-    color: white;
-    background-color: rgb(0, 140, 255);
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
+  height: 40px;
+  width: 200px;
+  margin-left: 35px;
+  color: white;
+  background-color: rgb(0, 140, 255);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 .userIcon {
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    background-color: black;
-}
-
-.userIcon {
-    margin-left: auto;
-    margin-right: 20px;
-    margin-bottom: 5px;
-
-    background-image: url("./image/person.jpg");
-    background-size: cover;
-    background-position: center;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  background-color: black;
+  background-image: url("./image/person.jpg");
+  background-size: cover;
+  background-position: center;
 }
