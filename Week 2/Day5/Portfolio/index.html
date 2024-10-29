@@ -27,11 +27,15 @@
   </head>
 
   <body>
-    <div class="row">
-      <div class="col-lg-3 col-md-3 col-sm-3" style="background-color: yellow">
-        <div id="userbar">
+    <div class="container-fluid mainThing">
+      <div class="row sideBar">
+        <div class="col-lg-3 col-md-4 col-sm-12 sideCol">
+          <!-- User Card with pic and icons link -->
           <div id="userCard">
-            <img id="userImg" src="./image/person.jpg" />
+            <img
+              id="userImg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLg5gfY7_Tb_OGCp7-RZcmBJIX_S6wfpzlEg&s"
+            />
             <p id="name">Alex Smith</p>
             <div class="contactIcons">
               <i class="bi bi-twitter-x"></i>
@@ -41,104 +45,87 @@
               <i class="bi bi-linkedin"></i>
             </div>
           </div>
-          <div id="navbar">
-            <div class="row">
-              <div class="col-sm-2 col-md-3 col-lg-6">
+
+          <div class="container-fuild">
+            <div class="row navData">
+              <div class="col-sm-12 col-md-12 col-lg-12">
                 <i class="bi bi-house"></i>
                 <span class="navTexts">Home</span>
               </div>
             </div>
-            <div class="row">
-              <div class="col-sm-2 col-md-3 col-lg-6">
+            <div class="row navData">
+              <div class="col-sm-12 col-md-12 col-lg-12">
                 <i class="bi bi-person"></i>
                 <span class="navTexts">About</span>
               </div>
             </div>
-            <div class="row">
-              <div class="col-sm-2 col-md-3 col-lg-6">
-                <i class="bi bi-file-earmark-text"></i
-                ><span class="navTexts">Resume</span>
+            <div class="row navData">
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <i class="bi bi-file-earmark-text"></i>
+                <span class="navTexts">Resume</span>
               </div>
             </div>
-            <div class="row">
-              <div class="col-sm-2 col-md-3 col-lg-6">
-                <i class="bi bi-images"></i
-                ><span class="navTexts">Portfolio</span>
+            <div class="row navData">
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <i class="bi bi-images"></i>
+                <span class="navTexts">Portfolio</span>
               </div>
             </div>
-            <div class="row">
-              <div class="col-sm-2 col-md-3 col-lg-6">
-                <i class="bi bi-menu-button"></i
-                ><span class="navTexts">Services</span>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-2 col-md-3 col-lg-6 dropdown">
-                <i class="bi bi-envelope"></i
-                ><span class="navTexts">Dropdown</span>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-2 col-md-3 col-lg-6">
-                <i class="bi bi-envelope"></i
-                ><span class="navTexts">Contact</span>
+            <div class="row navData">
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <i class="bi bi-menu-button"></i>
+                <span class="navTexts">Services</span>
               </div>
             </div>
 
-            <nav id="navmenu" class="navmenu">
-              <ul>
-                <li>
-                  <i class="bi bi-envelope"></i
-                  ><span class="navTexts">Contact</span>
-                </li>
-                <li class="dropdown">
-                  <i class="bi bi-envelope"></i
-                  ><span class="navTexts">Dropdown</span>
-                </li>
-              </ul>
-            </nav>
-            <!-- <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12">
-
-      
+            <div class="row navData" id="dropNav">
+              <div class="col-sm-12 col-md-12 col-lg-12 dropdown">
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2>
+                      <button
+                        class="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        <i class="bi bi-envelope"></i>
+                        <span class="navTexts">Dropdown</span>
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseOne"
+                      class="accordion-collapse collapse show"
+                      aria-labelledby="headingOne"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body">TEXT 1</div>
+                      <div class="accordion-body">TEXT 2</div>
+                      <div class="accordion-body">TEXT 3</div>
+                    </div>
+                  </div>
                 </div>
-              </div> -->
+              </div>
+            </div>
+
+            <div class="row navData">
+              <div class="col-sm-12 col-md-12 col-lg-12">
+                <i class="bi bi-envelope"></i>
+                <span class="navTexts">Contact</span>
+              </div>
+            </div>
           </div>
-        </div>
 
-        <div class="dropdown">
-          <button
-            class="btn btn-secondary dropdown-toggle"
-            type="button"
-            id="dropdownMenuButton1"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Dropdown button
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
+          <p>Sidebar Content</p>
         </div>
-
-        <!-- Welcome page -->
-      </div>
-      <div
-        class="col-lg-9 col-md-9 col-sm-9"
-        style="background-color: rgb(85, 0, 255)"
-      >
-        >
-        <!-- Welcome page -->
+        <!-- Main content column -->
+        <div class="col-lg-9 col-md-8 col-sm-12 mainCol">
+          <!-- Main content here -->
+          <p>Main Content</p>
+        </div>
       </div>
     </div>
-    <!-- About me -->
-    <!-- skills -->
-    <!-- projects -->
-    <!-- project1
-        project2
-        project3 -->
-    <!-- Contact -->
   </body>
 </html>
