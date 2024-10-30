@@ -1,87 +1,111 @@
 .mainThing {
-    background-color: rgb(54, 137, 70);
-    height: 100vh;
-    width: 100%;
-  }
-  
-  .sideCol {
-    background-color: rgb(0, 0, 0);
-    height: 100vh;
-    position: sticky;
-    top: 0;
-    overflow-y: auto;
-  }
-  
-  .mainCol {
-    background-color: rgb(0, 55, 255);
-    height: 2000px;
-  }
-  
-  /* UserCard */
-  #userCard {
-    text-align: center;
-    padding: 15px;
-    color: white;
-  }
-  
-  #userImg {
-    height: 80px;
-    width: 80px;
-    border-radius: 50%;
-    border: 3px solid gray;
-  }
-  
-  .navData {
-    padding: 10px;
-    color: white;
-  }
-  
-  .navData i {
-    font-size: 20px;
-    margin-right: 10px;
-    /* border: 1px solid white; */
-  }
-  
-  .accordion-button {
-    padding: 0;
-    color: white;
-    background-color: rgb(0, 0, 0);
-  }
-  
-  .accordion-button:not(.collapsed) {
-    color: #ffdd57;
-  }
-  
-  /* Accordion */
-  .accordion-item {
-    border: none;
-    background-color: #000000;
-  }
-  
-  .accordion-header {
-    background-color: #343a40;
-  }
-  
-  .accordion-button {
-    color: rgb(255, 255, 255);
-    background-color: #000000;
-    padding: 0px 12px;
-  }
-  
-  .accordion-button:not(.collapsed) {
-    background-color: #000000;
-    color: #3c4b83;
-  }
-  
-  .accordion-body {
-    background-color: #000000;
-    color: white;
-  }
-  
-  .dropdown {
-    margin-left: -12px;
-    margin-bottom: -10px;
-  }
-  
-  
-  
+  background-color: rgb(54, 137, 70);
+  height: 100vh;
+  width: 100%;
+}
+
+.sideCol {
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  overflow-y: auto;
+}
+
+.mainCol {
+  background-color: rgba(255, 81, 0, 0.384);
+  height: 2000px;
+}
+
+/* UserCard */
+#userCard {
+  text-align: center;
+  padding: 15px;
+  color: white;
+}
+
+#userImg {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 3px solid gray;
+}
+
+.navData {
+  padding: 10px;
+  color: white;
+}
+
+.navData i {
+  font-size: 20px;
+  margin-right: 10px;
+  /* border: 1px solid white; */
+}
+
+.accordion-button {
+  padding: 0;
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+
+.accordion-button:not(.collapsed) {
+  color: #ffdd57;
+}
+
+/* Accordion */
+.accordion-item {
+  border: none;
+  background-color: #000000;
+}
+
+.accordion-header {
+  background-color: #343a40;
+}
+
+.accordion-button {
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+  padding: 0px 12px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #000000;
+  color: #3c4b83;
+}
+
+.accordion-body {
+  background-color: #000000;
+  color: white;
+}
+
+.dropdown {
+  margin-left: -12px;
+  margin-bottom: -10px;
+}
+
+
+
+/* Mainpage */
+.bg_me {
+  background-image: url("./image/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  /* background-position: center 1px; */
+  margin: 0;
+  padding: 0;
+}
+
+.mainCol {
+  padding: 0;
+  margin: 0;
+}
+
+.typed {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
