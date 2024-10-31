@@ -231,7 +231,7 @@
 
 
 .summary {
-  background-color: #3c4b83;
+  /* background-color: #3c4b83; */
   width: 100%;
   position: relative;
 }
@@ -291,15 +291,16 @@
 
 .line-decorator::before {
   content: "";
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  background-color: #007bff;
+  background-color: #ffffff;
   /* Blue circle */
   position: absolute;
-  left: -6px;
+  left: -10px;
   /* Center the circle on the line */
-  top: 0;
+  top: -6px;
+  border: 2px solid #007bff;
 }
 
 .summary-text {
