@@ -19,6 +19,7 @@
   overflow-y: auto;
   display: flex;
   flex-direction: column;
+  overflow-y: hidden;
 }
 
 /* UserCard */
@@ -87,8 +88,6 @@
   margin-bottom: -10px;
 }
 
-
-
 /* Mainpage */
 .bg_me {
   background-image: url("./image/bg.jpg");
@@ -106,7 +105,6 @@
   flex-direction: column;
   justify-content: center;
   object-fit: cover;
-
 }
 
 .content-wrapper {
@@ -115,7 +113,6 @@
   gap: 10px;
   /* Optional: add spacing between inline items */
 }
-
 
 .mainCol {
   padding: 0;
@@ -127,7 +124,6 @@
   font-weight: bold;
   color: #ffffff;
   margin-left: 30px;
-
 }
 
 .bg_me p {
@@ -149,9 +145,7 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
-  margin-top: 60px;
-  margin-left: 100px;
-
+  width: 90%;
 }
 
 .aboutImage {
@@ -193,6 +187,11 @@
 
 .listAbout li {
   margin-bottom: 20px;
+  list-style-type: none;
+}
+
+.listAbout i {
+  color: #149ddd;
 }
 
 .uiText {
@@ -202,8 +201,7 @@
 .skills {
   width: 100%;
 
-  padding-left: 20px;
-  background-color: rgb(223, 255, 244);
+  background-color: #f4fafd;
 }
 
 .progress {
@@ -213,13 +211,11 @@
 .pbarMain {
   display: flex;
   flex-direction: row;
-
 }
 
 .pbar {
   width: 40%;
   margin-right: 20px;
-
 }
 
 .textstuff {
@@ -228,7 +224,6 @@
   justify-content: space-between;
   align-content: end;
 }
-
 
 .summary {
   /* background-color: #3c4b83; */
@@ -241,7 +236,6 @@
   flex-wrap: wrap;
 }
 
-
 /* .sumOne::before {
   content: "";
   width: 16px;
@@ -251,7 +245,6 @@
   border: 2px solid var(--accent-color);
 } */
 
-
 .sumOne::before {
   content: "";
   position: absolute;
@@ -260,13 +253,10 @@
   width: 16px;
   height: 16px;
 
-
   border-radius: 50px;
   background: red;
   border: 2px solid red;
 }
-
-
 
 /* TESTING */
 .summary-section {
@@ -318,11 +308,135 @@
 }
 
 .summary-text ul {
-  list-style-type: none;
   padding: 0;
   margin-top: 10px;
+  margin-left: 15px;
 }
 
 .summary-text li {
   margin-bottom: 5px;
+}
+
+.portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carouselPortfolio {
+  width: 100%; /* Full width of container */
+  max-width: 800px; /* Maximum width */
+}
+
+.carouselPortfolio img {
+  width: 100%; /* Ensures image scales with container */
+  height: 400px;
+  object-fit: contain;
+  border: 2px solid rgb(115, 115, 115);
+  border-radius: 5px;
+  background-color: #bdbdbe;
+}
+
+.portfolioArea {
+  background-color: #f4fafd;
+  height: 100vh;
+}
+
+.carousel-indicators button {
+  margin-bottom: 60px;
+}
+.caption {
+  margin-top: 2px;
+  background-color: #343a40;
+  border-left: 2px solid #343a40;
+  border-radius: 5px;
+  color: white;
+}
+
+.hobbyList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.hobby1,
+.hobby2,
+.hobby3 {
+  width: 200px;
+  height: 200px;
+  background-color: #3c4b83;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s ease;
+  border-radius: 5px;
+  position: relative;
+}
+
+.hobby1 {
+  background-image: url("./image/h1.jpg");
+}
+
+/* Zoom effect on hover */
+.hobby1:hover,
+.hobby2:hover,
+.hobby3:hover {
+  transform: scale(1.2);
+}
+
+.hobby2 {
+  background-image: url("./image/h2.webp");
+}
+
+.hobby3 {
+  background-image: url("./image/h3.webp");
+}
+
+.hobbyList span {
+  color: rgb(253, 255, 255);
+  font-weight: bold;
+  position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.contactMain {
+  background-color: #f4fafd;
+}
+
+.contactIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.circle {
+  width: 35px;
+  height: 35px;
+  background-color: #5b5b5b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle i {
+  color: white;
+  font-size: 20px;
+}
+
+.formArea {
+  position: relative;
+  width: 80%;
+  height: 350px;
+}
+
+.formArea button {
+  width: 250px;
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translateX(-50%);
 }
