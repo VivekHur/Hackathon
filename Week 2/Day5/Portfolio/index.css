@@ -13,6 +13,16 @@
   width: 300px;
 }
 
+.sideCol::-webkit-scrollbar {
+  width: 8px; /* Adjust width for vertical scroll, height for horizontal */
+}
+
+/* Style the scrollbar track */
+.sideCol::-webkit-scrollbar-track {
+  background: #040b14; /* Match or contrast with sidebar background */
+  border-radius: 10px; /* Round the edges of the track */
+}
+
 .mainCol {
   padding: 0;
   flex: 1;
