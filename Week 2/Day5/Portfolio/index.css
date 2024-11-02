@@ -14,13 +14,16 @@
 }
 
 .sideCol::-webkit-scrollbar {
-  width: 8px; /* Adjust width for vertical scroll, height for horizontal */
+  width: 8px;
+  /* Adjust width for vertical scroll, height for horizontal */
 }
 
 /* Style the scrollbar track */
 .sideCol::-webkit-scrollbar-track {
-  background: #040b14; /* Match or contrast with sidebar background */
-  border-radius: 10px; /* Round the edges of the track */
+  background: #040b14;
+  /* Match or contrast with sidebar background */
+  border-radius: 10px;
+  /* Round the edges of the track */
 }
 
 .mainCol {
@@ -154,7 +157,6 @@
 .abouts {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   width: 100%;
   padding-left: 25px;
 }
@@ -345,12 +347,15 @@
 }
 
 .carouselPortfolio {
-  width: 100%; /* Full width of container */
-  max-width: 800px; /* Maximum width */
+  width: 100%;
+  /* Full width of container */
+  max-width: 800px;
+  /* Maximum width */
 }
 
 .carouselPortfolio img {
-  width: 100%; /* Ensures image scales with container */
+  width: 100%;
+  /* Ensures image scales with container */
   height: 400px;
   object-fit: contain;
   border: 2px solid rgb(115, 115, 115);
@@ -366,12 +371,14 @@
 .carousel-indicators button {
   margin-bottom: 60px;
 }
+
 .caption {
   margin-top: 2px;
   background-color: #343a40;
   border-left: 2px solid #343a40;
   border-radius: 5px;
   color: white;
+  text-align: center;
 }
 
 .hobbyList {
@@ -426,6 +433,8 @@
   background-color: #f4fafd;
 }
 
+
+
 .contactIcons {
   display: flex;
   flex-direction: row;
@@ -460,4 +469,17 @@
   left: 50%;
   bottom: 0%;
   transform: translateX(-50%);
+}
+
+
+.nav-link {
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  color: #ffdd57;
+  font-weight: bold;
 }

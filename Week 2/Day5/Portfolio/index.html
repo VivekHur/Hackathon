@@ -1,588 +1,508 @@
 <html>
-  <head>
-    <title>We learn about bootstrap today</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+<head>
+  <title>We learn about bootstrap today</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./index.css" />
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-  </head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./index.css" />
 
-  <body>
-    <div class="container-fluid mainThing">
-      <div class="row sideBar">
-        <div class="col-lg-3 col-md-4 col-sm-12 sideCol">
-          <!-- User Card with pic and icons link -->
-          <div id="userCard">
-            <img id="userImg" src="./image/bg.jpg" />
-            <p id="name">Alex Smith</p>
-            <div class="contactIcons">
-              <div class="circle">
-                <i class="bi bi-twitter-x"></i>
-              </div>
-              <div class="circle">
-                <i class="bi bi-facebook"></i>
-              </div>
-              <div class="circle">
-                <i class="bi bi-instagram"></i>
-              </div>
-              <div class="circle">
-                <i class="bi bi-skype"></i>
-              </div>
-              <div class="circle">
-                <i class="bi bi-linkedin"></i>
-              </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+</head>
+
+<body>
+  <div class="container-fluid mainThing">
+    <div class="row sideBar">
+      <div class="col-lg-3 col-md-4 col-sm-12 sideCol">
+        <!-- User Card with pic and icons link -->
+        <div id="userCard">
+          <img id="userImg" src="./image/bg.jpg" />
+          <p id="name">Alex Smith</p>
+          <div class="contactIcons">
+            <div class="circle">
+              <i class="bi bi-twitter-x"></i>
+            </div>
+            <div class="circle">
+              <i class="bi bi-facebook"></i>
+            </div>
+            <div class="circle">
+              <i class="bi bi-instagram"></i>
+            </div>
+            <div class="circle">
+              <i class="bi bi-skype"></i>
+            </div>
+            <div class="circle">
+              <i class="bi bi-linkedin"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fuild">
+          <div class="row navData">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <a href="#home" class="nav-link"> <i class="bi bi-house"></i>
+                <span class="navTexts">Home</span></a>
+            </div>
+          </div>
+          <div class="row navData">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <a href="#about" class="nav-link"><i class="bi bi-person"></i>
+                <span class="navTexts">About</span></a>
+            </div>
+          </div>
+          <div class="row navData">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <a href="#skills" class="nav-link"><i class="bi bi-menu-button"></i>
+                <span class="navTexts">Skills</span></a>
+            </div>
+          </div>
+          <div class="row navData">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <a href="#resume" class="nav-link"><i class="bi bi-file-earmark-text"></i>
+                <span class="navTexts">Resume</span></a>
+            </div>
+          </div>
+          <div class="row navData">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <a href="#portfolio" class="nav-link"><i class="bi bi-images"></i>
+                <span class="navTexts">Portfolio</span></a>
             </div>
           </div>
 
-          <div class="container-fuild">
-            <div class="row navData">
-              <div class="col-sm-12 col-md-12 col-lg-12">
-                <i class="bi bi-house"></i>
-                <span class="navTexts">Home</span>
-              </div>
-            </div>
-            <div class="row navData">
-              <div class="col-sm-12 col-md-12 col-lg-12">
-                <i class="bi bi-person"></i>
-                <span class="navTexts">About</span>
-              </div>
-            </div>
-            <div class="row navData">
-              <div class="col-sm-12 col-md-12 col-lg-12">
-                <i class="bi bi-file-earmark-text"></i>
-                <span class="navTexts">Resume</span>
-              </div>
-            </div>
-            <div class="row navData">
-              <div class="col-sm-12 col-md-12 col-lg-12">
-                <i class="bi bi-images"></i>
-                <span class="navTexts">Portfolio</span>
-              </div>
-            </div>
-            <div class="row navData">
-              <div class="col-sm-12 col-md-12 col-lg-12">
-                <i class="bi bi-menu-button"></i>
-                <span class="navTexts">Services</span>
-              </div>
-            </div>
-
-            <div class="row navData" id="dropNav">
-              <div class="col-sm-12 col-md-12 col-lg-12 dropdown">
-                <div class="accordion" id="accordionExample">
-                  <div class="accordion-item">
-                    <h2>
-                      <button
-                        class="accordion-button"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#collapseOne"
-                        aria-expanded="true"
-                        aria-controls="collapseOne"
-                      >
-                        <i class="bi bi-envelope"></i>
-                        <span class="navTexts">Dropdown</span>
-                      </button>
-                    </h2>
-                    <div
-                      id="collapseOne"
-                      class="accordion-collapse collapse show"
-                      aria-labelledby="headingOne"
-                      data-bs-parent="#accordionExample"
-                    >
-                      <div class="accordion-body">TEXT 1</div>
-                      <div class="accordion-body">TEXT 2</div>
-                      <div class="accordion-body">TEXT 3</div>
-                    </div>
+          <div class="row navData" id="dropNav">
+            <div class="col-sm-12 col-md-12 col-lg-12 dropdown">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2>
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <a href="#hobbies" class="nav-link"> <i class="bi bi-envelope"></i>
+                        <span class="navTexts">Hobbies</span></a>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">Gaming</div>
+                    <div class="accordion-body">Fishing</div>
+                    <div class="accordion-body">Hiking</div>
                   </div>
                 </div>
               </div>
             </div>
-
-            <div class="row navData">
-              <div class="col-sm-12 col-md-12 col-lg-12">
-                <i class="bi bi-envelope"></i>
-                <span class="navTexts">Contact</span>
-              </div>
-            </div>
           </div>
 
-          <p>Sidebar Content</p>
+          <div class="row navData">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+              <a href="#contact" class="nav-link"><i class="bi bi-envelope"></i>
+                <span class="navTexts">Contact</span></a>
+            </div>
+          </div>
         </div>
-        <!-- Main content column -->
-        <div class="col-lg-9 col-md-8 col-sm-12 mainCol">
-          <!-- Main content here -->
-          <div class="bg_me">
-            <p>Vivek Hurdoyal</p>
-            <div class="content-wrapper">
-              <span class="typed"></span>
-            </div>
+
+        <p>Sidebar Content</p>
+      </div>
+      <!-- Main content column -->
+      <div class="col-lg-9 col-md-8 col-sm-12 mainCol ">
+
+        <!-- Main content here -->
+        <div id="home" class="bg_me home section">
+          <p>Vivek Hurdoyal</p>
+          <div class="content-wrapper">
+            <span class="typed"></span>
           </div>
+        </div>
 
-          <div class="abouts container">
-            <h2>About</h2>
-            <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
-            </p>
-            <div class="textArea">
-              <div class="imgDiv">
-                <img class="aboutImage" src="./image/bg.jpg" />
+        <div id="about" class="abouts container section">
+          <h2>About</h2>
+          <p>
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+            ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+            quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+            Quia fugiat sit in iste officiis commodi quidem hic quas.
+          </p>
+          <div class="textArea">
+            <div class="imgDiv">
+              <img class="aboutImage" src="./image/bg.jpg" />
+            </div>
+
+            <div class="row">
+              <div class="col-md-12 col-lg-12 col-sm-12 uiText">
+                <h3>Ui/UX Designer & Web Developer</h3>
               </div>
-
-              <div class="row">
-                <div class="col-md-12 col-lg-12 col-sm-12 uiText">
-                  <h3>Ui/UX Designer & Web Developer</h3>
-                </div>
-                <div class="col-md-12 col-lg-12 col-sm-12 uiText">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                </div>
-                <div class="col-md-12 col-lg-6 col-sm-12 listAbout">
-                  <ul>
-                    <li>
-                      <i class="bi bi-chevron-right"></i>
-                      <span>Birthday: </span><span>16 May 1996</span>
-                    </li>
-                    <li>
-                      <i class="bi bi-chevron-right"></i>
-                      <span>Website: </span><span>www.mywebsite.com</span>
-                    </li>
-                    <li>
-                      <i class="bi bi-chevron-right"></i>
-                      <span>Phone: </span><span>+230 582 85 105</span>
-                    </li>
-                    <li>
-                      <i class="bi bi-chevron-right"></i>
-                      <span>City: </span><span>Flacq</span>
-                    </li>
-                  </ul>
-                </div>
-                <div class="col-md-12 col-lg-6 col-sm-12 listAbout">
-                  <ul>
-                    <li>
-                      <i class="bi bi-chevron-right"></i>
-                      <span>Age: </span><span>28</span>
-                    </li>
-                    <li>
-                      <i class="bi bi-chevron-right"></i>
-                      <span>Degree: </span><span>Bachelors Degree</span>
-                    </li>
-                    <li>
-                      <i class="bi bi-chevron-right"></i>
-                      <span>Email: </span
-                      ><span>lachmundvar.hurdoyal@gmail.com</span>
-                    </li>
-                    <li>
-                      <i class="bi bi-chevron-right"></i>
-                      <span>Freelance: </span><span>Available</span>
-                    </li>
-                  </ul>
-                </div>
-                <p class="uiText">
-                  Officiis eligendi itaque labore et dolorum mollitia officiis
-                  optio vero. Quisquam sunt adipisci omnis et ut. Nulla
-                  accusantium dolor incidunt officia tempore. Et eius omnis.
-                  Cupiditate ut dicta maxime officiis quidem quia. Sed et
-                  consectetur qui quia repellendus itaque neque.
+              <div class="col-md-12 col-lg-12 col-sm-12 uiText">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua.
                 </p>
               </div>
+              <div class="col-md-12 col-lg-6 col-sm-12 listAbout">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <span>Birthday: </span><span>16 May 1996</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <span>Website: </span><span>www.mywebsite.com</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <span>Phone: </span><span>+230 582 85 105</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <span>City: </span><span>Flacq</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-md-12 col-lg-6 col-sm-12 listAbout">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <span>Age: </span><span>28</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <span>Degree: </span><span>Bachelors Degree</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <span>Email: </span><span>lachmundvar.hurdoyal@gmail.com</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <span>Freelance: </span><span>Available</span>
+                  </li>
+                </ul>
+              </div>
+              <p class="uiText">
+                Officiis eligendi itaque labore et dolorum mollitia officiis
+                optio vero. Quisquam sunt adipisci omnis et ut. Nulla
+                accusantium dolor incidunt officia tempore. Et eius omnis.
+                Cupiditate ut dicta maxime officiis quidem quia. Sed et
+                consectetur qui quia repellendus itaque neque.
+              </p>
             </div>
           </div>
+        </div>
 
-          <div class="skills container">
-            <h2>Skills</h2>
-            <p>
-              Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-              Cupiditate ut dicta maxime officiis quidem quia. Sed et
-              consectetur q
-            </p>
-            <div class="pbarMain">
-              <div class="pbar">
-                <div class="textstuff">
-                  <span>HTML</span>
-                  <span>25%</span>
-                </div>
-
-                <div class="progress" style="height: 20px">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 25%"
-                    aria-valuenow="25"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-                <div class="textstuff">
-                  <span>HTML</span>
-                  <span>25%</span>
-                </div>
-                <div class="progress" style="height: 20px">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 45%"
-                    aria-valuenow="25"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-                <div class="textstuff">
-                  <span>HTML</span>
-                  <span>25%</span>
-                </div>
-                <div class="progress" style="height: 20px">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 85%"
-                    aria-valuenow="25"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-                <div class="textstuff">
-                  <span>HTML</span>
-                  <span>25%</span>
-                </div>
-                <div class="progress" style="height: 20px">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 25%"
-                    aria-valuenow="25"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
+        <div id="skills" class="skills container section">
+          <h2>Skills</h2>
+          <p>
+            Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
+            Cupiditate ut dicta maxime officiis quidem quia. Sed et
+            consectetur q
+          </p>
+          <div class="pbarMain">
+            <div class="pbar">
+              <div class="textstuff">
+                <span>HTML</span>
+                <span>25%</span>
               </div>
-              <div class="pbar">
-                <div class="textstuff">
-                  <span>HTML</span>
-                  <span>25%</span>
-                </div>
-                <div class="progress" style="height: 20px">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 25%"
-                    aria-valuenow="25"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-                <div class="textstuff">
-                  <span>HTML</span>
-                  <span>25%</span>
-                </div>
-                <div class="progress" style="height: 20px">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 45%"
-                    aria-valuenow="25"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-                <div class="textstuff">
-                  <span>HTML</span>
-                  <span>25%</span>
-                </div>
-                <div class="progress" style="height: 20px">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 85%"
-                    aria-valuenow="25"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
-                <div class="textstuff">
-                  <span>HTML</span>
-                  <span>25%</span>
-                </div>
-                <div class="progress" style="height: 20px">
-                  <div
-                    class="progress-bar"
-                    role="progressbar"
-                    style="width: 25%"
-                    aria-valuenow="25"
-                    aria-valuemin="0"
-                    aria-valuemax="100"
-                  ></div>
-                </div>
+
+              <div class="progress" style="height: 20px">
+                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+              <div class="textstuff">
+                <span>HTML</span>
+                <span>25%</span>
+              </div>
+              <div class="progress" style="height: 20px">
+                <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+              <div class="textstuff">
+                <span>HTML</span>
+                <span>25%</span>
+              </div>
+              <div class="progress" style="height: 20px">
+                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+              <div class="textstuff">
+                <span>HTML</span>
+                <span>25%</span>
+              </div>
+              <div class="progress" style="height: 20px">
+                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100"></div>
               </div>
             </div>
-          </div>
-
-          <div class="resume container">
-            <h2>Resume</h2>
-            <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
-            </p>
-            <div class="container summary">
-              <div class="row">
-                <div class="col-lg-6">
-                  <div class="summary-section">
-                    <h2>Summary</h2>
-                    <div class="content">
-                      <div class="line-decorator"></div>
-                      <div class="summary-text">
-                        <h3>Vivek Hurdoyal</h3>
-                        <p>
-                          <em
-                            >Innovative and deadline-driven Graphic Designer
-                            with 3+ years of experience designing and developing
-                            user-centered digital/print marketing material from
-                            initial concept to final, polished deliverable</em
-                          >
-                        </p>
-                        <ul>
-                          <li>Royal Road Bramsthan</li>
-                          <li>+230 58285105</li>
-                          <li>lachmundvar.hurdoyal@gmail.com</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <h2>Education</h2>
-                  <div class="summary-section">
-                    <div class="content">
-                      <div class="line-decorator"></div>
-                      <div class="summary-text">
-                        <h3>
-                          BACHELOR OF INFORMATION COMMUNICATION AND TECHNOLOGY
-                        </h3>
-                        <p>2016-2020</p>
-                        <p>University of Mauritius</p>
-                        <p>
-                          Android App Development, Networking, Modulation, SQL
-                          and Coding in C++ , C# and Python
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-lg-6">
-                  <div class="summary-section">
-                    <h2>Professional Experience</h2>
-                    <div class="content">
-                      <div class="line-decorator"></div>
-                      <div class="summary-text">
-                        <h3>JUNIOR SOFTWARE DEVELOPER</h3>
-                        <p>2016 - Present</p>
-
-                        <ul>
-                          <li>
-                            Lead in the design, development, and implementation
-                            of the customer system, layout, and production
-                            communication materials
-                          </li>
-                          <li>
-                            Delegate tasks to the 2 members of the development
-                            team and provide counsel on all aspects of the
-                            project.
-                          </li>
-                          <li>Website developing</li>
-                          <li>Maintaining Database</li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <div class="pbar">
+              <div class="textstuff">
+                <span>HTML</span>
+                <span>25%</span>
+              </div>
+              <div class="progress" style="height: 20px">
+                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+              <div class="textstuff">
+                <span>HTML</span>
+                <span>25%</span>
+              </div>
+              <div class="progress" style="height: 20px">
+                <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+              <div class="textstuff">
+                <span>HTML</span>
+                <span>25%</span>
+              </div>
+              <div class="progress" style="height: 20px">
+                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+              <div class="textstuff">
+                <span>HTML</span>
+                <span>25%</span>
+              </div>
+              <div class="progress" style="height: 20px">
+                <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0"
+                  aria-valuemax="100"></div>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="portfolioArea container">
-            <h2>Portfolio</h2>
-            <p>
-              Magnam dolores commodi suscipit. Necessitatibus eius consequatur
-              ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
-              quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-              Quia fugiat sit in iste officiis commodi quidem hic quas.
-            </p>
-            <div class="portfolio">
-              <div
-                id="carouselExampleDark"
-                class="carousel carousel-dark slide carouselPortfolio"
-                data-bs-ride="carousel"
-              >
-                <div class="carousel-indicators">
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleDark"
-                    data-bs-slide-to="0"
-                    class="active"
-                    aria-current="true"
-                    aria-label="Slide 1"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleDark"
-                    data-bs-slide-to="1"
-                    aria-label="Slide 2"
-                  ></button>
-                  <button
-                    type="button"
-                    data-bs-target="#carouselExampleDark"
-                    data-bs-slide-to="2"
-                    aria-label="Slide 3"
-                  ></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000">
-                    <img src="./image/portfolio1.png" class="d-block w-100" />
-                    <div class="caption">
-                      <h5>First slide label</h5>
+        <div id="resume" class="resume container section">
+          <h2>Resume</h2>
+          <p>
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+            ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+            quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+            Quia fugiat sit in iste officiis commodi quidem hic quas.
+          </p>
+          <div class="container summary">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="summary-section ">
+                  <h2>Summary</h2>
+                  <div class="content">
+                    <div class="line-decorator"></div>
+                    <div class="summary-text">
+                      <h3>Vivek Hurdoyal</h3>
                       <p>
-                        Some representative placeholder content for the first
-                        slide.
+                        <em>Innovative and deadline-driven Graphic Designer
+                          with 3+ years of experience designing and developing
+                          user-centered digital/print marketing material from
+                          initial concept to final, polished deliverable</em>
                       </p>
+                      <ul>
+                        <li>Royal Road Bramsthan</li>
+                        <li>+230 58285105</li>
+                        <li>lachmundvar.hurdoyal@gmail.com</li>
+                      </ul>
                     </div>
                   </div>
-
-                  <div class="carousel-item" data-bs-interval="2000">
-                    <img src="./image/portfolio2.png" class="d-block w-100" />
-                    <div class="caption">
-                      <h5>First slide label</h5>
+                </div>
+                <h2>Education</h2>
+                <div class="summary-section">
+                  <div class="content">
+                    <div class="line-decorator"></div>
+                    <div class="summary-text">
+                      <h3>
+                        BACHELOR OF INFORMATION COMMUNICATION AND TECHNOLOGY
+                      </h3>
+                      <p>2016-2020</p>
+                      <p>University of Mauritius</p>
                       <p>
-                        Some representative placeholder content for the first
-                        slide.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./image/portfolio3.png" class="d-block w-100" />
-                    <div class="caption">
-                      <h5>First slide label</h5>
-                      <p>
-                        Some representative placeholder content for the first
-                        slide.
+                        Android App Development, Networking, Modulation, SQL
+                        and Coding in C++ , C# and Python
                       </p>
                     </div>
                   </div>
                 </div>
-                <button
-                  class="carousel-control-prev"
-                  type="button"
-                  data-bs-target="#carouselExampleDark"
-                  data-bs-slide="prev"
-                >
-                  <span
-                    class="carousel-control-prev-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                  class="carousel-control-next"
-                  type="button"
-                  data-bs-target="#carouselExampleDark"
-                  data-bs-slide="next"
-                >
-                  <span
-                    class="carousel-control-next-icon"
-                    aria-hidden="true"
-                  ></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="summary-section">
+                  <h2>Professional Experience</h2>
+                  <div class="content">
+                    <div class="line-decorator"></div>
+                    <div class="summary-text">
+                      <h3>JUNIOR SOFTWARE DEVELOPER</h3>
+                      <p>2016 - Present</p>
+
+                      <ul>
+                        <li>
+                          Lead in the design, development, and implementation
+                          of the customer system, layout, and production
+                          communication materials
+                        </li>
+                        <li>
+                          Delegate tasks to the 2 members of the development
+                          team and provide counsel on all aspects of the
+                          project.
+                        </li>
+                        <li>Website developing</li>
+                        <li>Maintaining Database</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+        </div>
 
-          <div class="hobbies container">
-            <h2>Hobbies</h2>
-            <p>
-              Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste
-              officiis commodi quidem hic quas.
-            </p>
-            <div class="hobbylist">
-              <div class="hobby1"><span>Gaming</span></div>
-              <div class="hobby2"><span>Fishing</span></div>
-              <div class="hobby3"><span>Hiking</span></div>
+        <div id="portfolio" class="portfolioArea container section">
+          <h2>Portfolio</h2>
+          <p>
+            Magnam dolores commodi suscipit. Necessitatibus eius consequatur
+            ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam
+            quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+            Quia fugiat sit in iste officiis commodi quidem hic quas.
+          </p>
+          <div class="portfolio">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide carouselPortfolio"
+              data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img src="./image/portfolio1.png" class="d-block w-100" />
+                  <div class="caption">
+                    <h5>Product card</h5>
+                    <p>
+                      Interactive Product card for an online shop.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img src="./image/portfolio2.png" class="d-block w-100" />
+                  <div class="caption">
+                    <h5>HUBSPOT Marketing</h5>
+                    <p>
+                      Download page for HUBSPOT Marketing.
+                    </p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./image/portfolio3.png" class="d-block w-100" />
+                  <div class="caption">
+                    <h5>Shopify</h5>
+                    <p>
+                      Shopify review page.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
           </div>
+        </div>
 
-          <div class="contactMain container">
-            <h2>Contact</h2>
-            <div class="contact">
-              <div class="formArea">
-                <div class="mb-3">
-                  <label for="name" class="form-label">Name</label>
-                  <input type="text" class="form-control" id="name" />
-                </div>
+        <div id="hobbies" class="hobbies container section">
+          <h2>Hobbies</h2>
+          <p>
+            Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste
+            officiis commodi quidem hic quas.
+          </p>
+          <div class="hobbylist">
+            <div class="hobby1"><span>Gaming</span></div>
+            <div class="hobby2"><span>Fishing</span></div>
+            <div class="hobby3"><span>Hiking</span></div>
+          </div>
+        </div>
 
-                <div class="mb-3">
-                  <label for="email" class="form-label">Email address</label>
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    placeholder="Enter your email address..."
-                  />
-                </div>
-                <div class="mb-3">
-                  <label for="textMsg" class="form-label">Message</label>
-                  <textarea
-                    class="form-control"
-                    id="textMsg"
-                    rows="3"
-                  ></textarea>
-                </div>
-
-                <button type="submit" class="btn btn-primary">Send</button>
+        <div id="contact" class="contactMain container section">
+          <h2>Contact</h2>
+          <div class="contact">
+            <div class="formArea">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" />
               </div>
-              <!--  -->
+
+              <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email address..." />
+              </div>
+              <div class="mb-3">
+                <label for="textMsg" class="form-label">Message</label>
+                <textarea class="form-control" id="textMsg" rows="3"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Send</button>
             </div>
+            <!--  -->
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const options = {
-          strings: ["I'm a Software Developer"],
-          typeSpeed: 60,
-          backSpeed: 25,
-          loop: true,
-          showCursor: true,
-          cursorChar: "|",
-        };
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const options = {
+        strings: ["I'm a Software Developer"],
+        typeSpeed: 60,
+        backSpeed: 25,
+        loop: true,
+        showCursor: true,
+        cursorChar: "|",
+      };
 
-        const typed = new Typed(".typed", options);
+      const typed = new Typed(".typed", options);
+    });
+
+
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const sections = document.querySelectorAll(".section");
+      const navLinks = document.querySelectorAll(".nav-link");
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            const link = document.querySelector(
+              `.nav-link[href="#${entry.target.id}"]`
+            );
+            if (entry.isIntersecting) {
+              link.classList.add("active");
+            } else {
+              link.classList.remove("active");
+            }
+          });
+        },
+        { threshold: 0.5 }
+      );
+
+      sections.forEach((section) => {
+        observer.observe(section);
       });
-    </script>
-  </body>
+    });
+
+
+
+  </script>
+</body>
+
 </html>
