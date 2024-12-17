@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./index.css" />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <title>Parallax Scrolling</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <img src="../Shoes/logo/LogoNew.png" id="potatoLogo" />
+      <nav class="navigation">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Service</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <div class="parallax container-fluid">
+      <img src="./hill1.png" id="hill1" />
+      <img src="./hill2.png" id="hill2" />
+      <img src="./hill3.png" id="hill3" />
+      <img src="./hill4.png" id="hill4" />
+      <img src="./hill5.png" id="hill5" />
+      <img src="./tree.png" id="tree" />
+      <img src="./leaf.png" id="leaf" />
+      <h2 id="text">POTATO SHOOE</h2>
+      <img src="./plant.png" id="plant" />
+    </div>
+
+    <section class="sec row">
+      <div class="shoeBox col-lg-5 col-md-4 col-sm-6">
+        <img id="shoe" src="./ShoeImages/Shoe1.png" alt="360 Shoe" />
+      </div>
+      <div class="shoeBoxDetails col-lg-7 col-md-8 col-sm-6">
+        <div class="MainProductDetail container-fluid">
+          <h2>Potato Air Max Pro</h2>
+          <p>Beige?</p>
+          <div class="review">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+          </div>
+          <div class="price">
+            <p class="discountPrice">
+              $ 185.00 <span class="normalPrice"> $ 250.00</span>
+            </p>
+          </div>
+          <hr />
+          <div class="container-fluid p-0">
+            <p>Colors</p>
+            <div class="colors">
+              <i id="colorbeige" class="bi bi-circle-fill colorIcon"></i>
+              <i id="colorPink" class="bi bi-circle-fill colorIcon"></i>
+            </div>
+          </div>
+          <div>
+            <p>Select Size</p>
+            <span class="shoeSize">37</span>
+            <span class="shoeSize">38</span>
+            <span class="shoeSize">39</span>
+            <span class="shoeSize">40</span>
+            <span class="shoeSize">41</span>
+            <span class="shoeSize">42</span>
+          </div>
+
+          <div class="cartButtonArea">
+            <button type="button cartButton" class="btn btn-primary">
+              Add To Cart &nbsp;&nbsp; <i class="bi bi-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products area     -->
+    <div class="container-fuild productRow">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 products">
+          <div class="card" style="width: 100%">
+            <img
+              src="../Shoes/OtherShoes/terra.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Basket TERRA-E</h5>
+              <p class="card-text">
+                Recycled Wool Soft and lightweight Designed to last long Durable
+                materials and waterproof.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">$ 220.00</li>
+              <li class="list-group-item">
+                <span class="shoeSize">37</span>
+                <span class="shoeSize">38</span>
+                <span class="shoeSize">39</span>
+                <span class="shoeSize">40</span>
+                <span class="shoeSize">41</span>
+                <span class="shoeSize">42</span>
+              </li>
+            </ul>
+            <div class="card-body">
+              <button type="button" class="btn btn-primary btn-sm">
+                Small button &nbsp;&nbsp; <i class="bi bi-cart"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 products">
+          <div class="card" style="width: 100%">
+            <img
+              src="../Shoes/OtherShoes/axolo.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Basket AXOLO VELOURS</h5>
+              <p class="card-text">
+                Recycled cotton, PETA certified vegan rubber, durable,
+                comfortable.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">$ 170.00</li>
+              <li class="list-group-item">
+                <span class="shoeSize">37</span>
+                <span class="shoeSize">38</span>
+                <span class="shoeSize">39</span>
+                <span class="shoeSize">40</span>
+                <span class="shoeSize">41</span>
+                <span class="shoeSize">42</span>
+              </li>
+            </ul>
+            <div class="card-body">
+              <button type="button" class="btn btn-primary btn-sm">
+                Small button &nbsp;&nbsp; <i class="bi bi-cart"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 products">
+          <div class="card" style="width: 100%">
+            <img
+              src="../Shoes/OtherShoes/croco.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Basket AXOLO R-SKIN</h5>
+              <p class="card-text">
+                Portugal: R-SKIN, recycled rubber outsole, ergonomic Drytech
+                insole, laces, packaging, durable.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">$ 240.00</li>
+              <li class="list-group-item">
+                <span class="shoeSize">37</span>
+                <span class="shoeSize">38</span>
+                <span class="shoeSize">39</span>
+                <span class="shoeSize">40</span>
+                <span class="shoeSize">41</span>
+                <span class="shoeSize">42</span>
+              </li>
+            </ul>
+            <div class="card-body">
+              <button type="button" class="btn btn-primary btn-sm">
+                Small button &nbsp;&nbsp; <i class="bi bi-cart"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 products">
+          <div class="card" style="width: 100%">
+            <img
+              src="../Shoes/OtherShoes/Basket.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Basket Vola</h5>
+              <p class="card-text">
+                R-LENO recycled wool, durable, washable, waterproof, Green EVA
+                sole, Ortholite ergonomic insole.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">$ 260.00</li>
+              <li class="list-group-item">
+                <span class="shoeSize">37</span>
+                <span class="shoeSize">38</span>
+                <span class="shoeSize">39</span>
+                <span class="shoeSize">40</span>
+                <span class="shoeSize">41</span>
+                <span class="shoeSize">42</span>
+              </li>
+            </ul>
+            <div class="card-body">
+              <button type="button" class="btn btn-primary btn-sm">
+                Small button &nbsp;&nbsp; <i class="bi bi-cart"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

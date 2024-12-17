@@ -11,19 +11,17 @@
   top: 0;
   overflow-y: auto;
   width: 300px;
+  transition: 0.3s ease;
 }
 
 .sideCol::-webkit-scrollbar {
   width: 8px;
-  /* Adjust width for vertical scroll, height for horizontal */
 }
 
 /* Style the scrollbar track */
 .sideCol::-webkit-scrollbar-track {
   background: #040b14;
-  /* Match or contrast with sidebar background */
   border-radius: 10px;
-  /* Round the edges of the track */
 }
 
 .mainCol {
@@ -182,6 +180,8 @@
   flex-direction: row;
 }
 
+
+
 @media (max-width: 576px) {
   .textArea {
     flex-direction: column;
@@ -191,6 +191,15 @@
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
   .textArea {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .textArea {
+    flex-direction: column;
+  }
+  .hobbyList {
     flex-direction: column;
   }
 }
@@ -433,8 +442,6 @@
   background-color: #f4fafd;
 }
 
-
-
 .contactIcons {
   display: flex;
   flex-direction: row;
@@ -470,7 +477,6 @@
   bottom: 0%;
   transform: translateX(-50%);
 }
-
 
 .nav-link {
   color: white;
