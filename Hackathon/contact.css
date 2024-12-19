@@ -1,0 +1,14 @@
+.navbar {
+  position: sticky;
+  top: 0; /* Stick to the top of the viewport */
+  z-index: 99999; /* Bootstrap's default z-index for navbar */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+  width: 100%; /* Ensure it spans the full width of the page */
+}
+.navbar a,
+i {
+  color: rgb(255, 255, 255) !important;
+  font-weight: 600;
+}
+
+
