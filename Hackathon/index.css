@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  background-color: #000; /* Black background */
+  color: #fff; /* White
+    text */
+}
+.mainPage {
+  background-image: url("./images/background3.jpg");
+  width: 100%;
+  height: auto;
+  background-size: cover; /* Ensures the image covers the whole div */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  /* padding-bottom: 30px; */
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.grid-containerx {
+  background-image: url("./images/background2.jpg");
+  background-size: cover; /* Ensures the image covers the whole div */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Center the image */
+  padding-bottom: 30px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0; /* Stick to the top of the viewport */
+  z-index: 99999; /* Bootstrap's default z-index for navbar */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visibility */
+  width: 100%; /* Ensure it spans the full width of the page */
+}
+.navbar a,
+i {
+  color: rgb(255, 255, 255) !important;
+  font-weight: 600;
+}
+
+.gifArea {
+  /* margin-top: 20px; */
+}
+.gifText {
+  /* background-color: aquamarine; */
+
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid ; */
+  background-color: rgba(87, 87, 87, 0.356);
+  border-radius: 10px;
+}
+
+.gifText p {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+.gifShoeArea {
+  background-color: rgb(168, 58, 38);
+  height: 80vh;
+  border-radius: 10px;
+  background-image: url("../Hackathon/images/welcome.gif");
+  background-size: cover; /* Ensures the image covers the whole div */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image within the div */
+}
+/* ------------------------- */
+
+.sec {
+  position: relative;
+  /* background: #1f1f1f; */
+  padding: 20px;
+
+  background-image: url("./images/background3.jpg");
+  background-size: cover; /* Ensures the image covers the whole div */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Center the image */
+  padding-bottom: 30px;
+}
+
+/* 360 Viewer Section */
+.shoeBox {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  height: 70vh;
+  background: #dcdddc18;
+  border-radius: 15px;
+
+  background-image: url("./images/background2.jpg");
+  background-size: cover; /* Ensures the image covers the whole div */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Center the image */
+  padding-bottom: 30px;
+}
+.shoeBox img {
+  max-width: 100%;
+  max-height: 100%;
+  cursor: grab;
+}
+.shoeBox img:active {
+  cursor: grabbing;
+}
+
+.productCardList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.products {
+  padding: 20px;
+}
+
+.MainProductDetail {
+  width: 100%;
+  height: 100%;
+  background-color: #fbfdfdb4;
+  border-radius: 15px;
+}
+
+.productRow {
+  background-color: #6e6e6e;
+  background-image: url("./images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 30px;
+}
+
+.review {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  justify-content: space-between;
+}
+
+.review i{
+    color: rgb(253, 255, 107) !important;
+}
+
+.normalPrice {
+  font-size: 15px;
+  color: rgb(124, 0, 0);
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+.discountPrice {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+hr {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 30px;
+  height: 2px;
+}
+
+.colorIcon {
+  font-size: 1.5em;
+}
+
+.colors {
+  width: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#colorbeige {
+  color: rgb(234, 202, 129) !important;
+}
+#colorPink {
+  color: #f898d0 !important;
+}
+
+/* Icon hover effect */
+#colorbeige,
+#colorPink {
+  transition: transform 0.3s ease, border 0.3s ease;
+}
+
+#colorbeige:hover,
+#colorPink:hover {
+  transform: scale(1.2);
+}
+
+/* Active icon styling */
+.selected {
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+#colorbeige,
+#colorPink {
+  cursor: pointer;
+}
+.shoeSize {
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  text-align: center;
+  line-height: 35px;
+  justify-items: center;
+}
+.mainShoeSize .shoeSize:hover {
+  background-color: #fff;
+  border: 2px solid rgb(255, 255, 255);
+  color: #000;
+  transform: scale(1.1);
+}
+
+.list-group-item .shoeSize:hover {
+  background-color: rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  transform: scale(1.1);
+}
+.cartButtonArea {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+#potatoLogo {
+  height: 100px;
+  width: 100px;
+}
+
+/* ------------------------------------TOP SELLING PRODUCTS---------------------------------------- */
+
+.col2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust based on your layout */
+  position: relative; /* Necessary for positioning the grid */
+  overflow: hidden; /* Prevent overflowing content */
+}
+
+.grid-container {
+  width: 320px; /* Adjust to match the grid's total width */
+  height: 320px; /* Adjust to match the grid's total height */
+  position: relative; /* Ensure child elements can use absolute positioning */
+  margin: 0 auto; /* Center the grid */
+}
+
+.col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* Center the grid */
+  margin-top: 15px;
+}
+.gridProductText {
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+  font-size: 2.5em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* Center the grid */
+}
+
+.grid-item {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(148, 148, 148);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  z-index: 1;
+  transition: transform 0.2s ease-out;
+  opacity: 1;
+
+  background-size: contain; /* Ensures the image covers the whole div */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Center the image */
+}
+#item-1 {
+  background-image: url("images/Potatoshoes/Shoe1.png");
+  top: 0;
+  left: 0;
+}
+
+#item-2 {
+  background-image: url("images/Potatoshoes/Shoe2.png");
+  top: 0;
+  left: 100px;
+}
+
+#item-3 {
+  background-image: url("images/Potatoshoes/Shoe3.png");
+  top: 0;
+  left: 200px;
+}
+
+#item-4 {
+  background-image: url("images/Potatoshoes/Shoe4.png");
+  top: 0;
+  left: 300px;
+}
+
+#item-5 {
+  background-image: url("images/Potatoshoes/Shoe5.png");
+  top: 100px;
+  left: 0;
+}
+
+#item-6 {
+  background-image: url("images/Potatoshoes/Shoe6.png");
+  top: 100px;
+  left: 100px;
+}
+
+#item-7 {
+  background-image: url("images/Potatoshoes/Shoe7.png");
+  top: 100px;
+  left: 200px;
+}
+
+#item-8 {
+  background-image: url("images/Potatoshoes/Shoe8.png");
+  top: 100px;
+  left: 300px;
+}
+
+#item-9 {
+  background-image: url("images/Potatoshoes/Shoe9.png");
+  top: 200px;
+  left: 0;
+}
+
+#item-10 {
+  background-image: url("images/Potatoshoes/Shoe10.png");
+  top: 200px;
+  left: 100px;
+}
+
+#item-11 {
+  background-image: url("images/Potatoshoes/Shoe11.png");
+  top: 200px;
+  left: 200px;
+}
+
+#item-12 {
+  background-image: url("images/Potatoshoes/Shoe12.png");
+  top: 200px;
+  left: 300px;
+}
+
+#item-13 {
+  background-image: url("images/Potatoshoes/Shoe13.png");
+  top: 300px;
+  left: 0;
+}
+
+#item-14 {
+  background-image: url("images/Potatoshoes/Shoe14.png");
+  top: 300px;
+  left: 100px;
+}
+
+#item-15 {
+  background-image: url("images/Potatoshoes/Shoe15.png");
+  top: 300px;
+  left: 200px;
+}
+
+#item-16 {
+  background-image: url("images/Potatoshoes/Shoe16.png");
+  top: 300px;
+  left: 300px;
+}
+/* ------------------------------------TOP SELLING PRODUCTS---------------------------------------- */

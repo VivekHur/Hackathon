@@ -25,19 +25,276 @@
     />
   </head>
   <body>
-    <div class="container-fluid headerBar">
-      <div class="container navBar col-lg-12">
-        <div class="container navItem">
-          <i class="bi bi-house"></i> <span>Home</span>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#mainPageID">Potato Shoe</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span><i class="bi bi-list"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#mainPageID"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#productListX">Products</a>
+            </li>
+          </ul>
         </div>
-        <div class="container navItem">
-          <i class="bi bi-cart"></i> <span>Products</span>
-        </div>
-        <div class="container navItem">
-          <i class="bi bi-bell"></i> <span>Notifications</span>
+      </div>
+    </nav>
+
+    <div class="container-fluid mainPage" id="mainPageID">
+      <div class="container-fluid gifArea">
+        <div class="row gifRow">
+          <div class="col-lg-4 col-md-3 col-sm-12 gifText container-fluid m-0">
+            <img src="../Hackathon/images/LogoNew.png" />
+            <p>TRENDING PRODUCT</p>
+            <p>NEW COLLECTION</p>
+          </div>
+          <div
+            class="col-lg-8 col-md-9 col-sm-12 gifShoeArea container-fluid m-0"
+          ></div>
         </div>
       </div>
     </div>
-    <div class="container-fluid mainBody"></div>
+
+    <div class="grid-containerx row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col1">
+        <div class="gridProductText">
+          <p>OUR TOP</p>
+          <p>SELLING PRODUCTS</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col2">
+        <div class="grid-container">
+          <div class="grid-item" id="item-1"></div>
+          <div class="grid-item" id="item-2"></div>
+          <div class="grid-item" id="item-3"></div>
+          <div class="grid-item" id="item-4"></div>
+          <div class="grid-item" id="item-5"></div>
+          <div class="grid-item" id="item-6"></div>
+          <div class="grid-item" id="item-7"></div>
+          <div class="grid-item" id="item-8"></div>
+          <div class="grid-item" id="item-9"></div>
+          <div class="grid-item" id="item-10"></div>
+          <div class="grid-item" id="item-11"></div>
+          <div class="grid-item" id="item-12"></div>
+          <div class="grid-item" id="item-13"></div>
+          <div class="grid-item" id="item-14"></div>
+          <div class="grid-item" id="item-15"></div>
+          <div class="grid-item" id="item-16"></div>
+        </div>
+      </div>
+    </div>
+
+    <section class="sec row">
+      <div class="shoeBox col-lg-5 col-md-4 col-sm-6">
+        <img
+          id="shoe"
+          src="../Hackathon/images/ShoeImages/Shoe1.png"
+          alt="360 Shoe"
+        />
+      </div>
+      <div class="shoeBoxDetails col-lg-7 col-md-8 col-sm-6">
+        <div class="MainProductDetail container-fluid pt-2">
+          <h2>Potato Air Max Pro</h2>
+
+          <div class="review">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+          </div>
+          <div class="price">
+            <p class="discountPrice">
+              $ 185.00 <span class="normalPrice"> $ 250.00</span>
+            </p>
+          </div>
+          <hr />
+          <div class="container-fluid p-0 mb-3">
+            <p class="mt-2 mb-1">Colors :</p>
+            <div class="colors">
+              <i id="colorbeige" class="bi bi-circle-fill colorIcon"></i>
+              <i id="colorPink" class="bi bi-circle-fill colorIcon"></i>
+            </div>
+          </div>
+          <div class="mainShoeSize">
+            <p>Select Size</p>
+            <span class="shoeSize">37</span>
+            <span class="shoeSize">38</span>
+            <span class="shoeSize">39</span>
+            <span class="shoeSize">40</span>
+            <span class="shoeSize">41</span>
+            <span class="shoeSize">42</span>
+          </div>
+
+          <div class="cartButtonArea">
+            <button type="button cartButton" class="btn btn-primary">
+              Add To Cart &nbsp;&nbsp; <i class="bi bi-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products area     -->
+    <div class="container-fuild productRow" id="productListX">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 products">
+          <div class="card" style="width: 100%">
+            <img
+              src="../Hackathon/images/OtherShoes/terra.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Basket TERRA-E</h5>
+              <p class="card-text">
+                Recycled Wool Soft and lightweight Designed to last long Durable
+                materials.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">$ 220.00</li>
+              <li class="list-group-item">
+                <span class="shoeSize">37</span>
+                <span class="shoeSize">38</span>
+                <span class="shoeSize">39</span>
+                <span class="shoeSize">40</span>
+                <span class="shoeSize">41</span>
+                <span class="shoeSize">42</span>
+              </li>
+            </ul>
+            <div class="card-body">
+              <button type="button" class="btn btn-primary btn-sm">
+                Add To Cart &nbsp;&nbsp; <i class="bi bi-cart"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 products">
+          <div class="card" style="width: 100%">
+            <img
+              src="../Hackathon/images/OtherShoes/axolo.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Basket AXOLO VELOURS</h5>
+              <p class="card-text">
+                Recycled cotton, PETA certified vegan rubber, durable,
+                comfortable.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">$ 170.00</li>
+              <li class="list-group-item">
+                <span class="shoeSize">37</span>
+                <span class="shoeSize">38</span>
+                <span class="shoeSize">39</span>
+                <span class="shoeSize">40</span>
+                <span class="shoeSize">41</span>
+                <span class="shoeSize">42</span>
+              </li>
+            </ul>
+            <div class="card-body">
+              <button type="button" class="btn btn-primary btn-sm">
+                Add To Cart &nbsp;&nbsp; <i class="bi bi-cart"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 products">
+          <div class="card" style="width: 100%">
+            <img
+              src="../Hackathon/images/OtherShoes/croco.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Basket AXOLO R-SKIN</h5>
+              <p class="card-text">
+                Portugal: R-SKIN, recycled rubber outsole, ergonomic Drytech
+                insole, laces, packaging, durable.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">$ 240.00</li>
+              <li class="list-group-item">
+                <span class="shoeSize">37</span>
+                <span class="shoeSize">38</span>
+                <span class="shoeSize">39</span>
+                <span class="shoeSize">40</span>
+                <span class="shoeSize">41</span>
+                <span class="shoeSize">42</span>
+              </li>
+            </ul>
+            <div class="card-body">
+              <button type="button" class="btn btn-primary btn-sm">
+                Add To Cart &nbsp;&nbsp; <i class="bi bi-cart"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 products">
+          <div class="card" style="width: 100%">
+            <img
+              src="../Hackathon/images/OtherShoes/Basket.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Basket Vola</h5>
+              <p class="card-text">
+                R-LENO recycled wool, durable, washable, waterproof, Green EVA
+                sole, Ortholite ergonomic insole.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">$ 260.00</li>
+              <li class="list-group-item">
+                <span class="shoeSize">37</span>
+                <span class="shoeSize">38</span>
+                <span class="shoeSize">39</span>
+                <span class="shoeSize">40</span>
+                <span class="shoeSize">41</span>
+                <span class="shoeSize">42</span>
+              </li>
+            </ul>
+            <div class="card-body">
+              <button type="button" class="btn btn-primary btn-sm">
+                Add To Cart &nbsp;&nbsp; <i class="bi bi-cart"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
   </body>
+  <footer class="py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 Potato Shoes. All Rights Reserved.</p>
+      <small
+        >Designed with <span style="color: red">&#10084;</span> by Potato
+        Shoes</small
+      >
+    </div>
+  </footer>
 </html>
